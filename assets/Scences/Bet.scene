@@ -1018,7 +1018,7 @@
     "_string": "Start",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 29.25,
+    "_actualFontSize": 28.055555555555554,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1226,7 +1226,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 490.2564102564103,
+    "_orthoHeight": 360,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -1345,7 +1345,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 82.265625,
+      "width": 82.26396073445235,
       "height": 50.4
     },
     "_anchorPoint": {
