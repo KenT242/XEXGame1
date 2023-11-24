@@ -16,14 +16,15 @@ export class CharAnimation extends Component {
     onLoad() {
         this.anim = this.getComponent(Animation)
         this.anim.play('Idle');
+
     }
 
     update(deltaTime: number) {
-        // console.log(this.anim.getState('Idle').isPlaying)
         if(!this.anim.getState('Idle').isPlaying && this.characterMovingType == CharMovingType.Idle) {
             this.anim.play('Idle')
         }
-        else if (this.characterMovingType == CharMovingType.Hurt) {
+        else if (!this.anim.getState('Walk').isPlaying && this.characterMovingType == CharMovingType.Walk) {
+            this.anim.play('Walk')
         }
     }
 }

@@ -11,7 +11,7 @@
     "6c48a": {
       "importer": "texture",
       "uuid": "3db37de5-c384-42f3-b0cf-e06ac9f9968a@6c48a",
-      "displayName": "Death_Walk_8",
+      "displayName": "Walk_8",
       "id": "6c48a",
       "name": "texture",
       "userData": {
@@ -35,7 +35,7 @@
     "f9941": {
       "importer": "sprite-frame",
       "uuid": "3db37de5-c384-42f3-b0cf-e06ac9f9968a@f9941",
-      "displayName": "Death_Walk_8",
+      "displayName": "Walk_8",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {

@@ -26,7 +26,7 @@ export class DeathCharacter extends Component {
   onKeyDown(event: EventKeyboard) {
     switch (event.keyCode) {
       case KeyCode.KEY_A:
-        _.set(this.charAnimation, 'characterMovingType', CharMovingType.Hurt)
+        _.set(this.charAnimation, 'characterMovingType', CharMovingType.Walk)
         break;
     }
   }

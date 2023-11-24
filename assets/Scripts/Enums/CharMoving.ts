@@ -1,6 +1,7 @@
 export enum CharMovingType {
     Idle =    0,
-    Attack =   1,
-    Hurt =     2,
-    Die = 3
+    Walk = 1,
+    Attack =   2,
+    Hurt =     3,
+    Die = 4
 }
